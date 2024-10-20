@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 #%matplotlib widget
+#finished_importing
 
 def my_linfit(x, y):
     x = np.array(x)
@@ -17,6 +18,7 @@ def my_linfit(x, y):
 x = []
 y = []
 
+#another function
 def onclick(point):
     if point.button == 1:  
         x.append(point.xdata)

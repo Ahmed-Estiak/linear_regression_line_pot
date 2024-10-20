@@ -18,6 +18,7 @@ def my_linfit(x, y):
 x = []
 y = []
 
+#another function
 def onclick(point):
     if point.button == 1:  
         x.append(point.xdata)
