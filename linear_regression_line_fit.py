@@ -3,6 +3,7 @@ import numpy as np
 #%matplotlib widget
 #finished_importing
 
+#first function
 def my_linfit(x, y):
     x = np.array(x)
     y = np.array(y)
