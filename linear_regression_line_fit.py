@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 #%matplotlib widget
+#finished_importing
 
 def my_linfit(x, y):
     x = np.array(x)
