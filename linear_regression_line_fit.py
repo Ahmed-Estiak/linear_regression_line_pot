@@ -28,8 +28,8 @@ def onclick(point):
             a, b = my_linfit(x, y)
             extended_min_x=min(x)-2
             extended_max_x=max(x)+2
-            x_values = np.array([extended_min_x, extended_max_x])
-            y_values = a * x_values + b
+            x_values = np.array([extended_min_x, extended_max_x]) #to view the plot perfectly
+            y_values = a * x_values + b 
             print(f"My fit: a={a} and b={b}")
             plt.plot(x_values, y_values, 'r-')
             plt.draw()
